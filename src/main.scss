@@ -1,1 +1,13 @@
 @use './styles/colors';
+
+
+nav {
+    .navtoggle {
+        height: 4em;
+        width: 4em;
+        background-color: colors.$light;
+        border-style: solid;
+        border-radius: 0.25em;
+        border-color: colors.$dark;
+    }
+}
