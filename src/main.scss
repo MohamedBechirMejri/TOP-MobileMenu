@@ -1,6 +1,8 @@
 @use './styles/colors';
 
-
+body {
+    margin: 0;
+}
 nav {
     .navtoggle {
         height: 4em;
@@ -10,4 +12,6 @@ nav {
         border-radius: 0.25em;
         border-color: colors.$dark;
     }
+
+    
 }
