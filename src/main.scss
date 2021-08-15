@@ -6,14 +6,16 @@ body {
 
 nav {
     .navtoggle {
-        height: 4em;
-        width: 4em;
+        height: 5em;
+        width: 5em;
         background-color: colors.$light;
         border-style: solid;
         border-radius: 0.25em;
         border-color: colors.$dark;
         position: fixed;
+        left: 2em;
+        top: 2em;
     }
 
-    
+
 }
