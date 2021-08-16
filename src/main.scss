@@ -5,12 +5,17 @@ body {
     background-color: antiquewhite;
 }
 
+h1 {
+    text-align: center;
+    margin: 1em auto auto 1em;
+}
+
 nav {
     position: relative;
 
     .navtoggle {
-        height: 5em;
-        width: 5em;
+        height: 4em;
+        width: 4em;
         background-color: colors.$light;
         border-style: solid;
         border-radius: 0.25em;
@@ -65,4 +70,7 @@ nav {
             }
         }
     }
+}
+p {
+    display: none;
 }
