@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector(".navtoggle"),t=document.querySelector(".navlinks-container");e.addEventListener("click",(()=>{t.classList.toggle("hidden"),e.classList.toggle("toggled")}))})();
