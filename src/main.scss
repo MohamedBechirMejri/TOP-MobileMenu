@@ -18,7 +18,7 @@ nav {
         height: 4em;
         width: 4em;
         background-color: colors.$light;
-        border-style: solid;
+        border-style: none;
         border-radius: 0.25em;
         border-color: colors.$dark;
         position: fixed;
@@ -36,6 +36,7 @@ nav {
             display: inline-block;
             position: relative;
             border-radius: 0.5em;
+            transition: all 300ms;
 
             &::before {
                 @extend .hamburger;
@@ -52,14 +53,15 @@ nav {
 
         &.toggled {
             .hamburger {
-                transform: rotate(45deg);
+                transform: rotate(-45deg);
 
                 &::before {
+                    transform: rotate(90deg);
                     bottom: 0 !important;
                 }
 
                 &::after {
-                    transform: rotate(-90deg);
+                    transform: rotate(0deg);
                     top: 0 !important;
                 }
             }
