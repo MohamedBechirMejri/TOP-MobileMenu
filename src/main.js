@@ -1,5 +1,8 @@
 import './main.scss';
 
-document.querySelector('.navtoggle').addEventListener('click', () => {
-  document.querySelector('.navlinks-container').classList.toggle('hidden');
+const navToggle = document.querySelector('.navtoggle');
+const navListContainer = document.querySelector('.navlinks-container');
+navToggle.addEventListener('click', () => {
+    navListContainer.classList.toggle('hidden');
+    navToggle.classList.toggle('toggled');
 });
