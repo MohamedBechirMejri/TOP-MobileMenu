@@ -30,11 +30,19 @@ nav {
 
         .navlinks {
             position: absolute;
-            top: 30%;
+            top: 5%;
             left: 50%;
             transform: translate(-50%);
             display: flex;
             flex-direction: column;
+
+            &::before {
+                content: 'Menu';
+                color: white;
+                text-align: center;
+                margin: auto auto 0.75em auto;
+                font-size: 2em;
+            }
 
             .navlink {
                 background-color: #fff;
