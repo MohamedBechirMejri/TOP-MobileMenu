@@ -15,7 +15,20 @@ nav {
         position: fixed;
         left: 2em;
         top: 2em;
+        display: none;
     }
 
+.navlinks-container {
+    background-color: black;
+    position: fixed;
 
+    height: 100%;
+    width: 45%;
+}
+.navlinks {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
 }
