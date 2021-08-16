@@ -36,14 +36,17 @@ nav {
     .navlinks-container {
         background-color: black;
         position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 45%;
+        top: 15%;
+        left: 45%;
+        height: 70%;
+        width: 60%;
+        margin: 1em;
+        border-radius: 1em;
+        transform: translate(-50%);
         transition: all 300ms;
 
         &.hidden {
-            transform: translate(-100%);
+            transform: translate(-500%);
         }
 
         .navlinks {
