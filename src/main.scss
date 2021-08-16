@@ -8,7 +8,6 @@ body {
 nav {
     position: relative;
 
-
     .navtoggle {
         height: 5em;
         width: 5em;
@@ -17,15 +16,13 @@ nav {
         border-radius: 0.25em;
         border-color: colors.$dark;
         position: fixed;
-        left: 3.5em;
+        left: 2em;
         top: 2em;
         transition: all 300ms;
         z-index: 1000;
 
         &.toggled {
-
-            background-color: black;
-            border-color: white;
+            left: 50%;
         }
     }
 
@@ -44,7 +41,7 @@ nav {
 
         .navlinks {
             position: absolute;
-            top: 5%;
+            top: 5em;
             left: 50%;
             transform: translate(-50%);
             display: flex;
