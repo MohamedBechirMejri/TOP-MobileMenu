@@ -36,8 +36,7 @@ nav {
             display: flex;
             flex-direction: column;
 
-            &::before {
-                content: 'Menu';
+            h2 {
                 color: white;
                 text-align: center;
                 margin: auto auto 0.75em auto;
